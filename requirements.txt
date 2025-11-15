@@ -1,0 +1,6 @@
+jupyterlab
+pandas
+plotly
+panel
+openpyxl
+jupyter_bokeh
