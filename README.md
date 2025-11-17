@@ -9,17 +9,19 @@ Não precisa instalar nada extra — o venv já vem no Python 3.3+.
 Windows
 
 Abra o PowerShell e rode:
-
+```
 python --version
-
+```
 
 ou
-
+```
 py --version
+```
+Linux / Mac:
 
-Linux / Mac
+```
 python3 --version
-
+```
 
 Se aparecer a versão (ex.: Python 3.11.6), está tudo certo.
 
@@ -27,59 +29,63 @@ Se aparecer a versão (ex.: Python 3.11.6), está tudo certo.
 
 Escolha a pasta do seu projeto e execute:
 
-Windows
+Windows:
+```
 python -m venv .venv
-
+```
 
 ou
-
+```
 py -m venv .venv
-
-Linux / macOS
+```
+Linux / macOS:
+```
 python3 -m venv .venv
-
-
-Isso cria uma pasta chamada .venv com tudo do ambiente virtual.
+```
+Isso cria uma pasta chamada **"/.venv"** com tudo do ambiente virtual.
 
 📌 3. Ativar o ambiente virtual
-Windows (PowerShell)
-.\.venv\Scripts\Activate.ps1
 
+Windows (PowerShell)
+``` PowerShell
+.venv\Scripts\Activate.ps1
+```
 
 Se der erro de permissão, rode isso antes:
-
+``` PowerShell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
-
-Windows (CMD)
+```
+Windows (CMD):
+```
 .\.venv\Scripts\activate.bat
-
-Linux / macOS
+```
+Linux / macOS:
+```
 source .venv/bin/activate
-
+```
 
 Você saberá que funcionou quando aparecer algo assim no terminal:
-
+``` CMD
 (.venv) C:\meu-projeto>
-
+```
 📌 4. Instalar pacotes dentro do venv
 
 Agora tudo que você instalar vai apenas para esse ambiente:
-
+``` 
 pip install requests
-
+``` 
 📌 5. Desativar o ambiente virtual
 
 Quando quiser sair:
-
+``` 
 deactivate
-
+``` 
 📌 6. Excluir o ambiente virtual
 
 Só apagar a pasta:
-
+``` 
 rm -rf .venv
-
-
+``` 
 ou no Windows, só deletar a pasta normalmente.
 
 🎉 Pronto!
@@ -91,6 +97,11 @@ Você agora sabe:
 ✓ Ativar e desativar
 ✓ Instalar dependências sem bagunçar seu sistema
 
-Feito isso deve-se instalar as dependencia: pip install -r requirements.txt
-
-para rodar o projeto> panel serve index.ipynb --show --autoreload
+Feito isso deve-se instalar as dependencia: 
+``` 
+pip install -r requirements.txt
+``` 
+para rodar o projeto: 
+``` 
+panel serve index.ipynb --show --autoreload
+``` 
