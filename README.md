@@ -64,15 +64,11 @@ Linux / macOS:
 source .venv/bin/activate
 ```
 
-Você saberá que funcionou quando aparecer algo assim no terminal:
-``` CMD
-(.venv) C:\meu-projeto>
-```
 📌 4. Instalar pacotes dentro do venv
 
 Agora tudo que você instalar vai apenas para esse ambiente:
 ``` 
-pip install requests
+pip install -r requirements.txt
 ``` 
 📌 5. Desativar o ambiente virtual
 
@@ -89,6 +85,11 @@ rm -rf .venv
 ou no Windows, só deletar a pasta normalmente.
 
 🎉 Pronto!
+
+Para rodar deve-se executar:
+```
+panel serve index.ipynb --show --autoreload 
+``` 
 
 Você agora sabe:
 
