@@ -1,3 +1,7 @@
+#LINK DO DATASET UTILIZADO:
+https://www.kaggle.com/datasets/wyattowalsh/basketball
+
+
 - instalar o venv
 - ✅ O que é o venv?
 
