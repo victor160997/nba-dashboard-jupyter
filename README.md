@@ -1,5 +1,7 @@
-#LINK DO DATASET UTILIZADO:
+# LINK DO DATASET UTILIZADO:
 https://www.kaggle.com/datasets/wyattowalsh/basketball
+
+-> Após clonar o projeto deve-se adicionar a pasta csv do dataset na raiz do projeto.
 
 
 - instalar o venv
