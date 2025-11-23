@@ -1,8 +1,9 @@
 # LINK DO DATASET UTILIZADO:
 https://www.kaggle.com/datasets/wyattowalsh/basketball
 
--> Após clonar o projeto deve-se adicionar a pasta csv do dataset na raiz do projeto.
+# COMO RODAR O PROJETO
 
+- Após clonar o projeto deve-se adicionar a pasta csv do dataset na raiz do projeto.
 
 - instalar o venv
 - ✅ O que é o venv?
